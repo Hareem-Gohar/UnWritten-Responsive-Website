@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: #275960;
+}
+.Offer{
+    width: 100%;
+    margin-bottom: 0px;
+    background-color:  #F2F8F7;
+    font-family: 'Manrope';
+    text-align: center;
+    font-weight: 500;
+}
+.Offer p{
+    padding: 5px 0px;
+    margin-bottom: 0px;
+}
+.nav-bar{
+    display: flex;
+    height: 50px;
+    gap: 0px 30px;
+    padding: 0px 60px;
+}
+.logo{
+    width: 180px;
+}
+.items{
+    padding: 0px 30px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+}
+.login-part{
+    display: flex;
+    gap: 0px 30px;
+    justify-content: end;
+
+}
+
+.arrangement{
+    display: flex;
+    gap: 0px 10px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope';
+}   
+.arrangement i{
+    padding: 0px;
+}
+.arrangement p{
+    margin-bottom: 0px;
+}
+.heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.heading h1{
+    font-family: 'Noto Serif';
+}
+.heading p{
+    padding: 0px 300px;
+}
+.cards{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    max-width: 365px;
+    width: 100%;
+    max-height: auto;
+    border-radius: 12px;
+    background-color: #F2F8F7;
+ 
+}
+.card-1 img{
+    padding: 15px;
+}
+.card-1 .details{
+    text-align: center;
+}
+.details h4{
+    font-family: 'Noto Serif';
+    font-weight: 600;
+}
+.details p{
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.email-align{
+    display: flex;
+    gap: 0px 5px;
+    justify-content: center;
+    align-items: center;
+}
+.email-align img{
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom:0px ;
+}
+.email-align p{
+    padding-top: 15px;
+    margin-bottom: 0px;
+    font-size: 'Manrope';
+    font-weight: 400;
+}
+.phone{
+    display: flex;
+    gap: 0px 5px;
+    justify-content: center;
+    align-items: center;
+}
+.phone img{
+    padding: 10px 0px 0px 0px;
+}
+.phone p{
+    padding: 10px 0px 0px 0px;
+    font-size: 'Manrope';
+    font-weight: 400;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 15px;
+    padding: 20px 0px;
+}
+.btns a{
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-weight: 700;
+}
+.p1{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #387A7F;
+    color: white;
+}
+.p2{
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid #387A7F;
+    color: #387A7F;
+    background-color: white;
+}
+.card-3{
+    max-width: 365px;
+    width: 100%;
+    max-height: auto;
+}
+.footer{
+    margin-top: 40px;
+    background-color:#F2F8F7;
+    width: 100%;
+    height: 550px;
+}.footer-inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 0px 0px;
+}
+.first-block{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    max-width: 60%;
+}
+.second-block{
+    width: 100% ;
+    max-width: 35%;
+}
+.second-block h4{
+    color: #387A7F;
+    font-family: 'Manrope';
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.second-block li{
+    gap: 0px 20px;
+    margin-bottom: 10px;
+}
+.second-block img{
+    margin-top: 10px;
+    max-width: 24px;
+    height: 24px;
+}
+.second-block a{
+    font-weight: 400;
+    color: #387A7F;
+    font-size: 17px;
+}
+.second-block p{
+    font-weight: 400;
+    color: #387A7F;
+}
+.section-1{
+    font-family: 'Manrope';
+}
+.section-1 h4{
+    font-weight: 600;
+    color:#387A7F;
+    padding-bottom: 15px;
+}
+.section-1 li{
+    height: auto;
+    list-style: none;
+    padding: 6px 0px;
+}
+.section-1 a{
+    text-decoration: none;
+    color: #387A7F;
+}
+.section-2{
+    font-family: 'Manrope';
+}
+.section-2 h4{
+    font-weight: 600;
+    color:#387A7F;
+    padding-bottom: 15px;
+}
+.section-2 li{
+    list-style: none;
+    padding: 6px 0px;
+}
+.section-2 a{
+    text-decoration: none;
+    color: #387A7F;
+}
+.section-3{
+    font-family: 'Manrope';
+}
+.section-3 h4{
+    font-weight: 600;
+    color:#387A7F;
+    padding-bottom: 15px;
+}
+.section-3 li{
+    list-style: none;
+    padding: 6px 0px;
+}
+.section-3 a{
+    text-decoration: none;
+    color: #387A7F;
+}
+.footer-end{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 20px;
+    padding-left: 60px;
+}
+.icons{
+    font-size: 26px;
+    color: #387A7F;
+    display: flex;
+    gap: 0px 20px;
+}
